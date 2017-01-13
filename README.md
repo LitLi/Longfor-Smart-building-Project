@@ -8,9 +8,7 @@ Stream Analytics in their Smart Building Solution on August 2016. Due to technic
 engagement, Longfor sign 100k$ Azure deal for deployment their smart building
 solution. 
 
-As L300 request, I mention 3 points contribution on
-this project
-
+As L300 request, I mention 3 parts contribution on this project as following:
 ## Solution Architect
 
 To date, this ISV has no solution that can monitor
