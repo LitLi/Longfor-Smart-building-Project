@@ -9,7 +9,7 @@ engagement, Longfor sign 100k$ Azure deal for deployment their smart building
 solution. 
 
 As L300 request, I mention 3 parts contribution on this project as following:
-## 1.Solution Architect
+## 1. Solution Architect
 
 To date, this ISV has no solution that can monitor
 vending machine health status or get real-time information on whether a device
@@ -19,7 +19,7 @@ the issue. All this adds to the cost of maintaining the machines. And also,
 their goods manager must check on the selling status of the vending machines to
 see if they need replenishing. 
 
-## 2.FEC Linux EasyARM-iMX257 IoT Hub SDK Integration
+## 2. FEC Linux EasyARM-iMX257 IoT Hub SDK Integration
 
 Use Azure IoT Hub to collect data on supplies and
 device health for all vending machines and send to the uniform management
@@ -27,7 +27,7 @@ platform for daily monitoring. This will help the staff to diagnose device
 issues online, which can save on maintenance costs and help realize predictive
 maintenance cost savings.
 
-## 3.Stream Analytics Script
+## 3. Stream Analytics Script
 
 In this project, help ISV to setup and configure IoT
 Hub, SA, and Azure SQL Database. More detail content and script files in [Data
