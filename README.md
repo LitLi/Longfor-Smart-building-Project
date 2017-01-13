@@ -11,7 +11,20 @@ solution.
 As L300 request, I mention 3 parts contribution on this project as following:
 ## 1. Solution Architect
 
-Before 2016, Longfor built V1.0 smart building system, and deploy 20k sensor to collectiing building operation data, including power data, elevator operation data etc. ![Smart Building System V1.0 Architect](/Images/Old Architect.PNG)
+Before 2016, Longfor built V1.0 smart building system, and deploy 20k sensor to collectiing building operation data, including power data, elevator operation data etc.
+
+![Smart Building System V1.0 Architect](/Images/Old Architect.PNG)
+
+There are some suffer issue on this version, such as :
+- Take more cost and time on transfer data between region site to monitor certer
+- Too complex to deploy new feature on this region architect
+- No realtime whole buildings monitor view
+- No realtime alert functionality
+
+After discussion with Longfor team, and leverage Azure IoT Services, we redefine Longfor Smart Buliding Solution Architect. 
+
+![Smart Building System V1.0 Architect](/Images/New Architect.PNG)
+
 ## 2. FEC Linux EasyARM-iMX257 IoT Hub SDK Integration
 
 Use Azure IoT Hub to collect data on supplies and
