@@ -29,7 +29,7 @@ After discussion with Longfor team, and leverage Azure IoT Services, we redefine
 
 In this project, Longfor team use FEC Linux EasyARM-iMX257 as their IoT Gateway device, its OS is not the standard Linux OS, but a customized OS. we need to support them to re-compile our IoT Hub SDK for their client, then Longfor team use the re-compile SDK to finish integrated compile on the device. 
 
-![FEC Linux EasyARM-iMX257](/Images/EasyARMiMX257.PNG)
+![FEC Linux EasyARM-iMX257](/Images/EasyARMiMX257.png)
 
 Our re-compile IoT Hub SDK in https://github.com/LitLi/Longfor-Smart-building-Project/blob/master/IoT%20Hub%20Example%20on%20Embedded%20Linux/openssl-new.7z, the folder structure as follow:
   -ROOT
