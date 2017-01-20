@@ -31,9 +31,9 @@ In this project, Longfor team use FEC Linux EasyARM-iMX257 as their IoT Gateway 
 ![FEC Linux EasyARM-iMX257](/Images/EasyARMiMX257.png)
 
 Our re-compile IoT Hub SDK in [IoT Hub Example on Embedded Linux] (https://github.com/LitLi/Longfor-Smart-building-Project/tree/master/IoT%20Hub%20Example%20on%20Embedded%20Linux), the folder structure as follow:
-- ROOT
--- azure-c-shared-utility
-- azure-umqtt-c
+  - ROOT
+    - azure-c-shared-utility
+    - azure-umqtt-c
 - iothub_client
 - serializer
 - sample
