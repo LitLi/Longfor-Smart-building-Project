@@ -6,7 +6,7 @@ Stream Analytics in their Smart Building Solution on August 2016. Due to this te
 engagement, Longfor signed 100k$ Azure deal for deployment their smart building
 solution. 
 
-As L300 request, I mention 3 parts contribution on this project as following:
+As L300 request, I mention 2 parts contribution on this project as following:
 ## 1. Solution Architect
 
 Before 2016, Longfor built V1.0 smart building system, and deploy 20k sensor to collectiing building operation data, including power data, elevator operation data etc.
@@ -37,8 +37,5 @@ Our re-compile IoT Hub SDK in [IoT Hub Example on Embedded Linux] (https://githu
 
 Due to no SSL libarary on Longfor device OS, we also compile the openssl lib in to package. Fanilly, they use this package finished the integrated compile and connect with IoTHub to send message well. 
 
-## 3. Stream Analytics Script
-
-In this project, help ISV to setup and configure IoT
-Hub, SA, and Azure SQL Database. More detail content and script files in [Data
-Pipeline](https://github.com/LitLi/SmartVendingMachine-Project/tree/master/Data%20Pineline)
+##Conclusion
+Throught this technical engagement, Longfor finally make 100$ Azure Deal with Microsoft. In first stage ( before June 2017), Longfor will migrate 20K devices to IoTHub, and Second stage(Before June 2019）, Longfor will deploy 100K devices to integrate with IoTHub.
