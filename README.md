@@ -1,4 +1,5 @@
-    
+
+
 # Longfor-Smart-Building-Project
 
 Longfor(http://www.longfor.com/)
@@ -39,6 +40,8 @@ Our re-compile IoT Hub SDK in [IoT Hub Example on Embedded Linux] (https://githu
     - sample
         -   Linux2
         -   openssl
+
+Due to no SSL libarary on Longfor device OS, we also compile the openssl lib in to package. Fanilly, they use this package finished the integrated compile and connect with IoTHub to send message well. 
 
 ## 3. Stream Analytics Script
 
