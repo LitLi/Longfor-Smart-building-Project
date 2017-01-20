@@ -34,11 +34,11 @@ Our re-compile IoT Hub SDK in [IoT Hub Example on Embedded Linux] (https://githu
   - ROOT
     - azure-c-shared-utility
     - azure-umqtt-c
-- iothub_client
-- serializer
-- sample
--   Linux2
--   openssl
+    - iothub_client
+    - serializer
+    - sample
+  -   Linux2
+  -   openssl
 
 ## 3. Stream Analytics Script
 
