@@ -1,4 +1,4 @@
-
+    
 # Longfor-Smart-Building-Project
 
 Longfor(http://www.longfor.com/)
@@ -37,8 +37,8 @@ Our re-compile IoT Hub SDK in [IoT Hub Example on Embedded Linux] (https://githu
     - iothub_client
     - serializer
     - sample
-  -   Linux2
-  -   openssl
+        -   Linux2
+        -   openssl
 
 ## 3. Stream Analytics Script
 
