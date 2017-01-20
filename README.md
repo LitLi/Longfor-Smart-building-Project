@@ -27,12 +27,19 @@ After discussion with Longfor team, and leverage Azure IoT Services, we redefine
 
 ## 2. FEC Linux EasyARM-iMX257 IoT Hub SDK Integration
 
-Use Azure IoT Hub to collect data on supplies and
-device health for all vending machines and send to the uniform management
-platform for daily monitoring. This will help the staff to diagnose device
-issues online, which can save on maintenance costs and help realize predictive
-maintenance cost savings.
+In this project, Longfor team use FEC Linux EasyARM-iMX257 as their IoT Gateway device, its OS is not the standard Linux OS, but a customized OS. we need to support them to re-compile our IoT Hub SDK for their client, then Longfor team use the re-compile SDK to finish integrated compile on the device. 
 
+![FEC Linux EasyARM-iMX257](/Images/EasyARMiMX257.PNG)
+
+Our re-compile IoT Hub SDK in https://github.com/LitLi/Longfor-Smart-building-Project/blob/master/IoT%20Hub%20Example%20on%20Embedded%20Linux/openssl-new.7z, the folder structure as follow:
+  -ROOT
+  ---|- azure-c-shared-utility
+  ---|- azure-umqtt-c
+  ---|- iothub_client
+  ---|- serializer
+  ---|- sample
+  ------|- Linux2
+  ------|- openssl
 ## 3. Stream Analytics Script
 
 In this project, help ISV to setup and configure IoT
